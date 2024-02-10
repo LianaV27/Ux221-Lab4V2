@@ -1,0 +1,13 @@
+/*
+Theme Name:     Feb6Child
+Description:    Child theme for lab4
+Author:         Liana Valdez
+Template:       twentytwentytwo
+
+(optional values you can add: Theme URI, Author URI, Version, License, License URI, Tags, Text Domain)
+*/
+
+footer {
+	background: #87a4b3;
+	color: black;
+}
