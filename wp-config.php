@@ -1,6 +1,8 @@
 <?php 
-define('WP_HOME','https://playground.wordpress.net/scope:0.7934081091849545');
-define('WP_SITEURL','https://playground.wordpress.net/scope:0.7934081091849545');
+define('USE_FETCH_FOR_REQUESTS',true);
+?><?php 
+define('WP_HOME','https://playground.wordpress.net/scope:0.1982254033769744');
+define('WP_SITEURL','https://playground.wordpress.net/scope:0.1982254033769744');
 ?><?php define( 'CONCATENATE_SCRIPTS', false );
 /**
  * The base configuration for WordPress
@@ -51,14 +53,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY','sP2&5[bcKAR@P2cB9ukH8$E%29,/Hyv-y%amaJpb');
-define( 'SECURE_AUTH_KEY','D)E]wN]@Uo!0cKX79!W>l]?rAMc=)jIbf=*WkV6W');
-define( 'LOGGED_IN_KEY','._F4)+7Y.8w[!Hf?)04s.Kh@%b2&jJixEa5X/+)Z');
-define( 'NONCE_KEY','dl*hYgxcH$]GxMZ7?mz*YDds.++TOvOT[DTRhvCD');
-define( 'AUTH_SALT','b&<NytxT7-].8@v]ZmecVo_2cYEsu*L?PsjnXcKp');
-define( 'SECURE_AUTH_SALT','3Yr9[n+VGVVJ(rZVS^cc9*N@rYf=w<y!8oPy!3MR');
-define( 'LOGGED_IN_SALT','AMvcS%Onzz-wS>qpBSaaUa-EG!IHO0+Q#<>KMRah');
-define( 'NONCE_SALT','n7I1K%dB-wa.O9IkUqQ<O#5X*ox=B$=A>-9zB]?c');
+define( 'AUTH_KEY','Ag$$/eOJvuNssm5z.&7!Q3DLWyGOe3!6)*4<$X@%');
+define( 'SECURE_AUTH_KEY','7=JQU^Dukx)t5]tV?-4w7af^cab(=65eR^o_IJ8f');
+define( 'LOGGED_IN_KEY','D!lR1!$91m(Ref84H?&[G[OZi!^r,Hid<V!-s+WE');
+define( 'NONCE_KEY','WMzF5FC#lIysZPgU1UAsU_CcK=XxR5oi,?W?*u6$');
+define( 'AUTH_SALT','uo]k_a7Y7bj4I(h7B&$V&!/.Itj!cIGZv#$t$H2$');
+define( 'SECURE_AUTH_SALT','TRP34e1M7KQ5*s_fBwDWuE!mP@V6Ogy.eI?uB0iT');
+define( 'LOGGED_IN_SALT','GOGzN)%Y1uh>t6/rOay]#m=i[G+5=U!uam^&X+*w');
+define( 'NONCE_SALT','A=/*wj%F*uy(h.-OlfQMA=4YU,P@Gu<MO,5bmAM&');
 
 /**#@-*/
 
@@ -97,3 +99,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 /** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
+ function wp_new_blog_notification(...$args){} 
